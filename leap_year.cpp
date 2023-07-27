@@ -13,7 +13,7 @@ int main() {
         std::string input;
         std::cin >> input;
 
-        // Try to convert the input string to a float
+        // Try to convert the input string to an integer
         try {
             year = std::stoi(input);
             validInput = true;
